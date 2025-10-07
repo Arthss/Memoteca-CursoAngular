@@ -1,27 +1,35 @@
-# Memoteca
+# 🧠 Memoteca - Curso Angular 14 (Alura)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+Aplicação desenvolvida durante o curso **"Angular 14: aplique os conceitos e desenvolva seu primeiro CRUD"** da **Alura**.  
+O projeto tem como objetivo criar uma **memoteca**, um espaço onde é possível registrar, visualizar, editar e excluir pensamentos, aplicando na prática os principais conceitos do **Angular 14**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Tecnologias e Dependências
 
-## Code scaffolding
+- **Angular CLI**: 14.0.3  
+- **Node.js**: 16+  
+- **TypeScript**: ^4.7.x  
+- **RxJS**: ~7.x  
+- **Bootstrap**: ^5.x  
+- **JSON Server**: ^0.17.x (para simular o backend)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## ⚙️ Como Executar o Projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 1️⃣ Clonar o repositório
+```bash
+git clone https://github.com/Arthss/Memoteca-CursoAngular.git
+cd Memoteca-CursoAngular
+```
 
-## Running unit tests
+### 2️⃣ Instalar as dependências
+```bash
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 3️⃣ Iniciar o servidor de desenvolvimento
+```bash
+ng serve
+```
